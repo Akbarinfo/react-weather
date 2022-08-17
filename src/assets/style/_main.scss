@@ -74,16 +74,16 @@
   .main {
     width: 100%;
     justify-content: center;
+    padding: 10px 15px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .main {
-
     &__box {
       display: grid;
       grid-template-columns: auto auto;
-      padding-left: 7%;
+      padding-left: 0;
     }
 
     &__error {
@@ -106,6 +106,10 @@
     &__descbox {
       text-align: start;
       padding: 0;
+    }
+
+    &__desc {
+      padding-left: 5px;
     }
   }
 }
